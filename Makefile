@@ -2,7 +2,7 @@ CC ?= gcc
 CFLAGS ?= -Wall -Wextra -std=c99
 LDFLAGS ?=
 
-TARGET = factorial
+TARGET = main
 PREFIX = /usr/bin
 
 all: $(TARGET)
